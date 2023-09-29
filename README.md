@@ -13,7 +13,6 @@ We aim to use PWA (Progressive Web App Technology) to implement this idea, as it
 - JavaScript
 - React.js
 - Tailwind CSS
-- Bootstrap
 - Node.js
 - MongoDB
 - Google Map APIs  
