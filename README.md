@@ -11,7 +11,47 @@ We aim to use PWA (Progressive Web App Technology) to implement this idea, as it
 - HTML
 - CSS
 - JavaScript
-- React
-- Node
-- Google Map APIs
+- React.js
+- Tailwind CSS
+- Bootstrap
+- Node.js
+- MongoDB
+- Google Map APIs  
+- Mapbox
+- Oauth
+
+### How to get started?
+- clone the repo 
+   ```
+   gti clone git@github.com:arcVaishali/stellar-vision.git
+   ```
+- run the following commands
+   ```
+   cd stellar-vision
+   ``` 
+
+   ```
+   npm install
+   ``` 
+- create a separate branch
+   ```
+   git branch <branch_name>
+   ```
+
+   ```
+   git checkout <branch_name>
+   ``` 
+- make changes and then stage, commit, push and create PR.
+   ```
+   git add .
+   ``` 
+
+   ```
+   git commit -m "message"
+   ```
+
+   ```
+   git push -u origin <branch_name>
+   ``` 
+- goto Create Pull Request tab above and create PR.
 
