@@ -3,7 +3,6 @@
 - Bell icon
 
   ```<i class="ri-notification-line"></i>
-
   ```
 
   ```
