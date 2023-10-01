@@ -12,18 +12,24 @@ import First from "./RescuePortal/pages/Home";
 
 import Requirements from "./RescuePortal/pages/Requirements";
 import CheckReqmt from "./RescuePortal/pages/CheckReqmt";
+import ReqmtDetail from "./RescuePortal/pages/ReqmtDetail";
 
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<First/>}></Route>
-
-        {/* <Route path="/" element={<Landing />}></Route> */}
+        <Route path="/" element={<Landing />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/location" element={<Location />}></Route>
+        <Route path="/requirements" element={<Requirements />}></Route>
+        <Route path="/check-requests" element={<CheckReqmt />}></Route>
+        <Route path="/req-detail" element={<ReqmtDetail />}></Route>
       </Routes>
       {/* <Requirements/> */}
-       <CheckReqmt/>
+      {/* <CheckReqmt/> */}
+      {/* <ReqmtDetail/>
+       <CheckReqmt/> */}
     </BrowserRouter>
   );
 }
