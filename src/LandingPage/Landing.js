@@ -66,7 +66,7 @@ const Landing = () => {
             times of natural calamity.
           </span>
           <div className="px-2 py-2 my-4 border-4 border-white bg-transparent w-32  text-white text-center hover:bg-white hover:border-gray-300 hover:shadow-md hover:shadow-gray-500 hover:text-inherit">
-            <Link to="/signup" className="italic">
+            <Link to="/signup" className="italic uppercase">
               Get started
             </Link>
           </div>
