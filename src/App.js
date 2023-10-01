@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./LandingPage/Landing";
 import Navbar from "./LandingPage/components/Navbar";
 import Requirements from "./RescuePortal/pages/Requirements";
+import CheckReqmt from "./RescuePortal/pages/CheckReqmt";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       <Routes>
         {/* <Route path="/" element={<Landing />}></Route> */}
       </Routes>
-      <Requirements/>
+      {/* <Requirements/> */}
+      <CheckReqmt/>
     </BrowserRouter>
   );
 }

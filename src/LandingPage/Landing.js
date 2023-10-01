@@ -13,7 +13,7 @@ const Landing = () => {
   ];
   return (
     <div className="grid grid-cols-12 justify-center items-center min-h-screen">
-      <nav className="sticky top-0 left-0 grid col-span-12 justify-between items-center bg-[#333] px-2 z-1000">
+      <nav className="sticky top-0 left-0 grid col-span-12 justify-between items-center bg-[#333] px-2 z-40">
         <div className="grid grid-cols-4 col-start-3 px-2 ">
           <div className="flex justify-center items-center px-4 py-2 border-r-[1px] border-[#47433D] hover:bg-[#000]">
             <img

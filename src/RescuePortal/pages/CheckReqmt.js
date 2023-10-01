@@ -1,8 +1,14 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import { Link } from "react-router-dom";
+import {Link} from "react-router-dom"
 
-const Requirements = () => {
+const CheckReqmt = () => {
+  const categories = [
+    { cat: "Food" },
+    { cat: "Water" },
+    { cat: "Food" },
+    { cat: "Water" },
+  ];
   const loc = [
     {
       src: "https://images.unsplash.com/photo-1604275689235-fdc521556c16?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8Zmxvb2QlMjBsb2NhdGlvbiUyMGltYWdlc3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60",
@@ -38,8 +44,36 @@ const Requirements = () => {
   return (
     <div>
       <Navbar />
-      <div className="grid grid-cols-12 justify-center items-center px-12 py-12 bg-gradient-to-bl from-[#BAAC9A] to-white">
-        <div className="grid grid-cols-12 gap-4 col-start-2 col-span-10 justify-center items-center rounded-sm">
+      <div className="grid grid-cols-12 justify-between items-center px-20 py-20 bg-gradient-to-bl from-[#BAAC9A] to-white">
+        <div className="grid col-span-7 col-start-2">
+          <span
+            className="text-4xl uppercase font-semibold"
+            style={{
+              fontFamily: "'Paytone One', sans-serif",
+            }}
+          >
+            Check Requests
+          </span>
+        </div>
+        <span className="flex col-span-3">
+          <input
+            id="search"
+            type="search"
+            placeholder="search here..."
+            className="flex bg-white text-gray-500 font-thin px-2 py-2 hover:shadow-[0_0px_12px_12px_rgba(0,0,0,0.2)] rounded-md border-gray-100 shadow-[0_2px_10px_10px_rgba(0,0,0,0.1)]"
+          />
+          <i class="ri-search-line bg-[#2F2D29] text-white px-4 py-2 rounded-r-md -ml-2 hover:bg-[#c7aa8b] hover:text-[#2F2D29] shadow-[0_2px_10px_10px_rgba(0,0,0,0.1)]"></i>
+        </span>
+        <div className="grid grid-cols-12 gap-4 col-span-10 justify-center items-center col-start-4 mt-32">
+          {categories.map((element) => (
+            <div className="grid col-span-2">
+              <span className="col-span-3 text-xl text-center uppercase bg-[#2F2D29] text-[#c7aa8b] border-2 border-[#c7aa8b] px-2 py-2 hover:bg-[#c7aa8b] hover:text-[#2F2D29] hover:border-[#2F2D29]">
+                {element.cat}
+              </span>
+            </div>
+          ))}
+        </div>
+        <div className="grid my-16 grid-cols-12 gap-4 col-start-2 col-span-10 justify-center items-center rounded-sm">
           {loc.map((element) => (
             <Link
               to={element.src}
@@ -80,4 +114,4 @@ const Requirements = () => {
   );
 };
 
-export default Requirements;
+export default CheckReqmt;
