@@ -5,6 +5,7 @@ import Landing from "./LandingPage/Landing";
 import Navbar from "./LandingPage/components/Navbar";
 import Requirements from "./RescuePortal/pages/Requirements";
 import CheckReqmt from "./RescuePortal/pages/CheckReqmt";
+import ReqmtDetail from "./RescuePortal/pages/ReqmtDetail";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         {/* <Route path="/" element={<Landing />}></Route> */}
       </Routes>
       {/* <Requirements/> */}
-      <CheckReqmt/>
+      {/* <CheckReqmt/> */}
+      <ReqmtDetail/>
     </BrowserRouter>
   );
 }
