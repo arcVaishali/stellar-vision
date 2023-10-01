@@ -39,6 +39,15 @@ const Requirements = () => {
     <div>
       <Navbar />
       <div className="grid grid-cols-12 justify-center items-center px-12 py-12 bg-gradient-to-bl from-[#BAAC9A] to-white">
+      <div className="px-2 py-2 border-2 border-[#c7aa8b] bg-gradient-to-t from-[#47433D] to-[#2F2D29] text-center hover:shadow-md hover:shadow-gray-500 col-span-3 relative  left-[450px] rounded-full mb-16">
+            <Link
+              to="/check-requests"
+              className="flex items-center justify-center text-center uppercase text-[#c7aa8b]"
+            >
+              See all
+              <i class="ri-arrow-right-line text-xl"></i>
+            </Link>
+          </div>
         <div className="grid grid-cols-12 gap-4 col-start-2 col-span-10 justify-center items-center rounded-sm">
           {loc.map((element) => (
             <Link
@@ -61,19 +70,25 @@ const Requirements = () => {
                 </span>
                 <span className="text-sm text-gray-400">{element.sub}</span>
                 <div className="px-2 py-2 my-4 border-2 border-[#c7aa8b] bg-[#c7aa8b] text-center hover:bg-transparent hover:border-[#c7aa8b] hover:shadow-md hover:shadow-gray-500 hover:text-[#c7aa8b]">
-                  <Link to="/signup" className="text-center uppercase text-inherit">
+                  <Link
+                    to="/signup"
+                    className="text-center uppercase text-inherit"
+                  >
                     Active
                   </Link>
                 </div>
                 <div className="px-2 py-2 border-2 border-[#c7aa8b] bg-[#c7aa8b] text-center hover:bg-transparent hover:border-[#c7aa8b] hover:shadow-md hover:shadow-gray-500 hover:text-[#c7aa8b]">
-                  <Link to="/signup" className="text-center uppercase text-inherit">
+                  <Link
+                    to="/req-detail"
+                    className="text-center uppercase text-inherit"
+                  >
                     Checkout
-
                   </Link>
                 </div>
               </div>
             </Link>
           ))}
+          
         </div>
       </div>
     </div>

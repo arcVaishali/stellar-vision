@@ -19,14 +19,17 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<First/>}></Route>
-
-        {/* <Route path="/" element={<Landing />}></Route> */}
+        <Route path="/" element={<Landing />}></Route>
+        <Route path="/register" element={<Register />}></Route>
+        <Route path="/location" element={<Location />}></Route>
+        <Route path="/requirements" element={<Requirements />}></Route>
+        <Route path="/check-requests" element={<CheckReqmt />}></Route>
+        <Route path="/req-detail" element={<ReqmtDetail />}></Route>
       </Routes>
       {/* <Requirements/> */}
       {/* <CheckReqmt/> */}
-      <ReqmtDetail/>
-       <CheckReqmt/>
+      {/* <ReqmtDetail/>
+       <CheckReqmt/> */}
     </BrowserRouter>
   );
 }
