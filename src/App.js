@@ -9,6 +9,8 @@ import Register from "./RescuePortal/pages/Register";
 import Location from "./RescuePortal/pages/Location";
 import First from "./RescuePortal/pages/Home";
 
+import AffHome from "./AfflictedPortal/pages/Home"
+
 
 import Requirements from "./RescuePortal/pages/Requirements";
 import CheckReqmt from "./RescuePortal/pages/CheckReqmt";
@@ -19,7 +21,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing />}></Route>
+    {/* <Route path="/" element={<Landing />}></Route> */}
+        <Route path="/" element={<AffHome />}></Route>
         <Route path="/register" element={<Register />}></Route>
         <Route path="/location" element={<Location />}></Route>
         <Route path="/requirements" element={<Requirements />}></Route>
