@@ -1,99 +1,82 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import Navbar from "../../RescuePortal/components/Navbar";
 
 const Home = () => {
-  // window.Trengo = window.Trengo || {};
-  // window.Trengo.key = "1UaTZfpBwbkiQEoSCIf3";
-  // (function (d, script, t) {
-  //   script = d.createElement("script");
-  //   script.type = "text/javascript";
-  //   script.async = true;
-  //   script.src = "https://cdn.widget.trengo.eu/embed.js";
-  //   d.getElementsByTagName("head")[0].appendChild(script);
-  // })(document);
-  // useEffect(() => {
-  //   window.Trengo = window.Trengo || {};
-  //   window.Trengo.key = "865mZppwDbFAvBctO1Wg";
-
-  //   const script = document.createElement("script");
-  //   // (function (d, script, t) {
-  //   //   script = d.createElement("script");
-  //   //   script.type = "text/javascript";
-  //   //   script.async = true;
-  //   //   script.src = "https://cdn.widget.trengo.eu/embed.js";
-  //   //   d.getElementsByTagName("head")[0].appendChild(script);
-  //   // })(document);
-
-  //   script.src = "https://cdn.widget.trengo.eu/embed.js";
-  //   script.type = "text/javascript";
-  //   script.async = true;
-
-  // script.integrity =
-  //   "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p";
-
-  // script.crossOrigin = "anonymous";
-
-  //   document.body.appendChild(script);
-
-  //   return () => {
-  //     // clean up the script when the component in unmounted
-  //     document.body.removeChild(script);
-  //   };
-  // }, []);
-
+  const navigation = [
+    { navi: "Home", to: "/" },
+    { navi: "Work", to: "/work" },
+    { navi: "Contact", to: "/contact" },
+  ];
+  const socials = [
+    { soc: "ri-facebook-circle-fill", src: "https://www.instagram.com" },
+    { soc: "ri-twitter-fill", src: "https://www.instagram.com" },
+  ];
   return (
-    <>
-      <Navbar />
-      <div className="bg-gradient-to-bl from-[#BAAC9A] to-white min-h-screen flex items-center">
-        <iframe
-          src="https://interfaces.zapier.com/embed/page/cln8u9sdc126100omji5mstydq?noBackground=true"
-          className="shadow-md h-[450px] shadow-[#62553B] rounded-xl border-2 border-[#c7aa8b] bg-gradient-to-t from-[#2F2D29] to-[#47433D] transition ease-in-out delay-50 hover:-translate-y-2 duration-500"
-          style={{
-            position: "relative",
-            left: "50px",
-            backgroundColor: "#2F2D29",
-            maxWidth: "600px",
-            width: "100%",
-            height: "400px",
-          }}
-        ></iframe>
-        <div
-        style={{
-          width: "100%",
-          height: "400px",
-        }}
-        >
-          <span 
-          className="border-2 border-[#c7aa8b] bg-[#323232] text-center hover:bg-transparent hover:border-[#323232] hover:shadow-md hover:shadow-gray-500 hover:text-[#323232] shadow-md shadow-[#62553B] px-4 py-4 transition ease-in-out delay-50 hover:-translate-y-2 duration-500 text-[#c7aa8b] uppercase"
-          style={{
-            position: "relative",
-            left: "250px",
-            bottom:"30px"
-          }}
-          >Your live location</span>
-          <iframe
-            width="400px"
-            height="400px"
-            src="https://api.mapbox.com/styles/v1/vaishali0xe/clk19r14k00cz01pf1o4a4zhw.html?title=false&access_token=pk.eyJ1IjoidmFpc2hhbGkweGUiLCJhIjoiY2xrMThpb21sMDU3bDNncnljY2lob3ZrZyJ9.7duGj5Vt6Q4gSgTT9d4b6Q&zoomwheel=false#8.05/28.658/77.481"
-            title="Outdoors-copy"
+    <div className="grid grid-cols-12 justify-center items-center min-h-screen">
+      <nav className="sticky top-0 left-0 grid col-span-12 justify-between items-center bg-[#333] px-2 z-40">
+        <div className="grid grid-cols-4 col-start-3 px-2 ">
+          <div className="flex justify-center items-center px-4 py-2 border-r-[1px] border-[#47433D] hover:bg-[#000]">
+            <img
+              src="https://i.ibb.co/S6dS0Gw/relief-connect-logo-removebg-preview.png"
+              className="w-[90px]"
+            />
+          </div>
+          {navigation.map((element) => (
+            <div className="flex justify-center items-center px-8 border-r-[1px] border-[#47433D] hover:bg-[#000]">
+              <Link
+                to={element.to}
+                className="text-white text-base uppercase font-[300]"
+              >
+                {element.navi}
+              </Link>
+            </div>
+          ))}
+        </div>
+        <div className="grid grid-cols-4 col-start-10 col-span-3">
+          {socials.map((element) => (
+            <div className="flex justify-center items-center px-2 border-[#47433D] hover:bg-[#000] hover:rounded-3xl">
+              <Link to={element.src} className="text-white text-xl uppercase">
+                <i class={element.soc}></i>
+              </Link>
+            </div>
+          ))}
+        </div>
+      </nav>
+      <div className="grid grid-cols-12 relative overflow-visible col-span-12 justify-center items-center mb-8">
+        <img
+          // src="https://plus.unsplash.com/premium_photo-1663076063751-80c3da778a8f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8d2lsZGZpcmUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+          // src="https://images.unsplash.com/photo-1602980068989-cb21869ab2c7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8d2lsZGZpcmUlMjBpbWFnZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=600&q=60"
+          src="https://plus.unsplash.com/premium_photo-1661962514590-7cfa4f3d446d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvb2RzJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
+          className="col-span-12 inset-0 h-[100vh] w-full object-fill object-right z-0 md:object-center"
+        />
+        <div className="bg-black opacity-40 absolute inset-0 z-10"></div>
+        <div className="flex flex-col col-span-6 col-start-2 absolute mx-auto max-w-7xl z-20">
+          <span
+            className="text-7xl text-gray-300 uppercase"
             style={{
-              position: "relative",
-              left: "100px",
-              maxWidth: "500px",
-              width: "100%",
-              height: "400px",
+              fontFamily: "'Paytone One', sans-serif",
+              textShadow: "5px 5px 5px rgba(0, 0, 0, 1)",
             }}
-            className="border-2 border-[#c7aa8b] bg-[#323232] rounded-xl  shadow-md shadow-[#62553B] px-4 py-4 transition ease-in-out delay-50 hover:-translate-y-2 duration-500"
           >
-            {" "}
-          </iframe>
+            Relief Connect
+          </span>
+          <span className="text-xl mt-4 text-gray-400">
+            This is a disaster relief and rescue aid. It aims to reduce the
+            issue of fragmented response by various organizations during the
+            times of natural calamity.
+          </span>
+          <div className="px-2 py-2 my-4 border-4 border-white bg-transparent w-128  text-white text-center hover:bg-white hover:border-gray-300 hover:shadow-md hover:shadow-gray-500 hover:text-inherit">
+            <Link to="/chatbot-and-map" className="uppercase">
+              Get started Evacuees and Survivors
+            </Link>
+          </div>
         </div>
       </div>
-
-    </>
-  );
+    </div>
+  )
 };
 
 export default Home;

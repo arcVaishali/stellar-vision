@@ -71,7 +71,7 @@ const Requirements = () => {
                 <span className="text-sm text-gray-400">{element.sub}</span>
                 <div className="px-2 py-2 my-4 border-2 border-[#c7aa8b] bg-[#c7aa8b] text-center hover:bg-transparent hover:border-[#c7aa8b] hover:shadow-md hover:shadow-gray-500 hover:text-[#c7aa8b]">
                   <Link
-                    to="/signup"
+                    to=""
                     className="text-center uppercase text-inherit"
                   >
                     Active
