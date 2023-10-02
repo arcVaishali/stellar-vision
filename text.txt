@@ -1,0 +1,24 @@
+{
+  "type": "service_account",
+  "project_id": "littergraph",
+  "private_key_id": "d562e643c48a873ead9bebc2461c04313c37e386",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDIoKFd/7IdLTgA\np8+gJDZ7FhVi2mhQPujkQKzIW0jaO+AwbYZFRFO2tYYixbtxDVmStKgnDQ4SFFB/\n3FSxX+cCF7mCV+Nyew8jQc9x7f9L6jXeny6amyRr/QlzQtlzSfaGnrGxLsZ47syY\nhrDRSomVDQJTbZLXuh/nR4SK0MbvDEC7K8KYJ0lmiD2Wu5Udk4zTevua+CICVV4M\nuLKAoj/qJwVQpcWDSOtbSgDYeo1eFPUZpx5FPtM3UwkqS47tZFXS9PTF57vcN7Wa\nI5VGSXLqOwvR4egXf24ovapOYjutPCF3EWN6Bi1RYRgQiHf+/DopWYqB4mFtPSk2\nFtrY7275AgMBAAECggEASqHylXCmlhL5t8i1RHnkKHKlHwJndp6IbUyf2eKXXdOT\nSQCdR8wsphWt4eaTnXEdZqU8vlYta01SStYwTVGDMnSX5mSCcFZV4cQ8AsJJy7hD\nNN8ba5kV+fQF3XI7SRd1FUwYhvSDEX6n7n+AbELhnmhZ+qYSz5xl/NfOdwNGVasd\nFo9vXhrvHyjQGWwQWo15toysOZnxOmhn+7D6I3+bpYSSem8Cw3L5dWU2ZdAlELgB\n5GFM1KJBTCqzxfTTtbpSV2WFIAvocOiPC5dCxvESj+OObPvYjkqt+6s1R6JH+2hf\nIojdFpStxsX39K1CsKc24zzRZETwwwKCJrum6S+A9wKBgQDitYfu3pjT0O5kMa+Z\nfT0ZGgSbfnAOecWzYXB7auKKrI2poSR2HQxpvt4kc9pbqknTzfxOQTuWHIM9ZqtV\nbhpbbHeKSDpi11QLoUG9Q2ounapP1jfOU8elPRqKB3hoDUEmV9mtzOQQwEJhWjQV\ngrLkeN9TZ8RNhTCo36DwXB9oTwKBgQDijHEFQX/p32EJwLyO/FHZmJS1d9k2D6J0\nFJ6ZsPt103YxDDca/GSOgHzlJSN2uBe8eEGRXUhm2yV7T9xVbE2zKsTgtM4ZbIp+\nPaMX69B4q94oST1/XKQsCu6sYh1XbUI3fFuxq7/mlsLw68EpfoeDhRTXQbOMcDqG\nHEy5yugaNwKBgQCRiMU9c4oaF7qheT/nwXzyW0Bv7WfT8xoWAEwr/j51lTXPmhGE\n/TrVu2BxeCnJxHRmUopQVhIBWEZrqTf9vJOQ8v1+OMW6Y86hNKC19cv5Jt+JJtRm\nUGQOUD50Mz15VmDnU2f66VfS5Qj34+chk+hxQKLksO1Uclb9Yam4AvtqgwKBgBm1\nUDoFdcuHYs6lhYBAV9V2gCGbqRV+brP3hwvvzolPZtEoDrTMQWj+Ya3rKfwV5fOo\nPeCOEmJBqh41MM6szKBxUQgi3GR8MbcjrXdQdkbLUhmGPilOzP6GexEqzSOXrXT4\ncrtVvyAeqZ6HUlMwHZaqKnRG62Ybcji3y2kmAnK/AoGAIy42whSORcfOBsj0PpTR\nAJy08KwAps0PD26anBUIGqem4ZHqLrgtuxOiDjD4iXyYfhGcFIJ/2LTUCZWuZ9jX\nVW/RCL5YgVWaXoJ4oupp3pIQTkcLZfJWPNrc3ZtPoyA51hcZNWvDobCUmNP2Cvpc\nsQS/ym66lbYMcNUZsgIS9bU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "relief-connect-chatbot@littergraph.iam.gserviceaccount.com",
+  "client_id": "103084789294887139558",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/relief-connect-chatbot%40littergraph.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+<script type="text/javascript">
+window.Trengo = window.Trengo || {};
+window.Trengo.key = 'ZeaTURsm0Ay6svbozqX9';
+(function(d, script, t) {
+    script = d.createElement('script');
+    script.type = 'text/javascript';
+    script.async = true;
+    script.src = 'https://cdn.widget.trengo.eu/embed.js';
+    d.getElementsByTagName('head')[0].appendChild(script);
+}(document));
+</script>
