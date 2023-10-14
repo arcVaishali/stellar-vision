@@ -142,37 +142,13 @@ The journey doesn't end here. We have exciting goals for Relief Connect:
 - It was told in the demo video above that we are yet to implement the portal for Afflicted individuals i.e. for evacuees, trapped, and survivors. We have some exciting news to share: **WE HAVE SUCCESSFULLY IMPLEMENTED THE PORTAL FOR AFFLICTED INDIVIDUALS**.
 
 - **CHECKOUT OUR DEMO FOR AFFLICTED INDIVIDUALS/EVACUEES/SURVIVORS' PORTAL**: [Demo video || Afflicted user Portal || Impact Hacks 2023 || Screen Rec Shareable Link](https://screenrec.com/share/tIAZ7jGYS5)
+
 ## Try It Out
+ - [GitHub Repo](https://github.com/arcVaishali/stellar-vision)
+ - [www.canva.com](https://www.canva.com/design/DAFos__N-es/gUn89J-6JxPkbKy4WrTvLg/edit)
+ - [stellar-vision.vercel.app](https://stellar-vision.vercel.app/)
+ - [screenrec.com](https://screenrec.com/share/tIAZ7jGYS5)
 
-<div>
-  <ul>
-    <li>
-      <span class="icon"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub"></span>
-      <a href="https://github.com/arcVaishali/stellar-vision">GitHub Repo</a>
-    </li>
-    <li>
-      <span class="icon">&#128279;</span>
-      <a href="https://www.canva.com/design/DAFos__N-es/gUn89J-6JxPkbKy4WrTvLg/edit">www.canva.com</a>
-    </li>
-    <li>
-      <span class="icon">&#128279;</span>
-      <a href="https://stellar-vision.vercel.app/">stellar-vision.vercel.app</a>
-    </li>
-    <li>
-      <span class="icon">&#128279;</span>
-      <a href="https://screenrec.com/share/tIAZ7jGYS5">screenrec.com</a>
-    </li>
-  </ul>
-</div>
-
-<style>
-  .icon {
-    display: inline-block;
-    width: 20px;
-    text-align: center;
-    margin-right: 5px;
-  }
-</style>
 
 
 
