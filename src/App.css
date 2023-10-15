@@ -1,0 +1,18 @@
+/* html{
+    min-height: 100vh;
+}
+
+body{
+    min-height: 100vh;
+} */
+
+.imagebg{
+    background-image: url("/assets/4.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.vollkorn{
+    font-family: 'Vollkorn', serif;
+}
