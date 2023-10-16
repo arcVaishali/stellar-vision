@@ -40,12 +40,9 @@ export default class HistoryDiv extends Component {
           </div>
           <div className="px-4 text-center">
             <p className="m-4 text-lg italic vallkorn">
-              As resident of Houston Texas, I've witness first hand the
-              horrifying affects that Hurricane Harvey left behind. The
-              devastation was not only Houston but other areas of Texas who
-              don't receive the support as larger cities.{" "}
+            Remembering the lack of resources during 2008's Hurricane Ike, I reached out to some famous friends, who used the power of social media to collect an abundance of donations, we then went to the communities of Beaumont, Orange and Port Arthur Texas and distributed donated relief items directly to families in need. It was then Unite Disaster Relief was born.
             </p>
-            <div className="text-[#c7aa8b]">AUGUST 2017</div>
+            <div className="text-[#c7aa8b]">SEPTEMBER 2017</div>
           </div>
           <div className="px-4 text-center">
             <p className="m-4 text-lg italic vallkorn">

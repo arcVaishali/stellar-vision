@@ -1,33 +1,78 @@
-import Carousel from 'react-bootstrap/Carousel';
+import React, { Component } from "react";
+import Slider from "react-slick";
+import { Button } from "@material-tailwind/react";
 
-function MyCarousel() {
-  return (
-    <Carousel>
-      <Carousel.Item className='w-screen h-[500px]' interval={2000}>
-        <img src='1.jpg' className='w-screen h-[500px] object-cover' alt='' />
-        <Carousel.Caption>
-          <h3>First slide label</h3>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className='w-screen h-[500px]' interval={2000}>
-      <img src='2.jpg' className='w-screen h-[500px] object-cover' alt='' />
-        <Carousel.Caption>
-          <h3>Second slide label</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </Carousel.Caption>
-      </Carousel.Item>
-      <Carousel.Item className='w-screen h-[500px]' interval={2000}>
-      <img src='3.jpeg' className='w-screen h-[500px] object-cover' alt='' />
-        <Carousel.Caption>
-          <h3>Third slide label</h3>
-          <p>
-            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-          </p>
-        </Carousel.Caption>
-      </Carousel.Item>
-    </Carousel>
-  );
+export default class MyCarousel extends Component {
+  render() {
+    const settings = {
+      dots: true,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      fade: true,
+      speed: 600,
+      autoplaySpeed: 6000,
+      cssEase: "linear",
+      nextArrow: <></>,
+      prevArrow: <></>,
+    };
+    return (
+      <div>
+        <Slider {...settings}>
+          <div>
+            <div className="flex flex-col items-center imgbg1 py-20">
+              <div className="text-white text-[68px] leading-[66px] not-italic font-light uppercase mb-3">
+                UNITE
+              </div>
+              <div className="text-white text-[68px] leading-[66px] not-italic font-bold uppercase mb-3">
+                PUERTO RICO
+              </div>
+              <div className="w-[60px] h-0.5 bg-white"></div>
+              <div className="text-[hsla(0,0%,100%,0.81)] text-xl italic font-bold mb-11 pt-4 vollkorn tshadow">
+                Land of the Valient Lord
+              </div>
+              <Button color="white" className=" font-bold text-sm">
+                Donate
+              </Button>
+            </div>
+          </div>
+          <div>
+            <div className="flex flex-col items-center imgbg2 py-20">
+              <div className="text-white text-[68px] leading-[66px] not-italic font-light uppercase mb-3">
+                HOUSTON STRONG
+              </div>
+              <div className="text-white text-[68px] leading-[66px] not-italic font-bold uppercase mb-3">
+                HOUSTON
+              </div>
+              <div className="w-[60px] h-0.5 bg-white"></div>
+              <div className="text-[hsla(0,0%,100%,0.81)] text-xl italic font-bold mb-11 pt-4 vollkorn tshadow">
+                It’s about content and originality. That’s what it’s about.
+              </div>
+              <Button color="white" className=" font-bold text-sm">
+                Donate
+              </Button>
+            </div>
+          </div>
+          <div>
+            <div className="flex flex-col items-center imgbg3 py-20">
+              <div className="text-white text-[68px] leading-[66px] not-italic font-light uppercase mb-3">
+                HAITI
+              </div>
+              <div className="text-white text-[68px] leading-[66px] not-italic font-bold uppercase mb-3">
+                UNITY MAKES STRENGTH
+              </div>
+              <div className="w-[60px] h-0.5 bg-white"></div>
+              <div className="text-[hsla(0,0%,100%,0.81)] text-xl italic font-bold mb-11 pt-4 vollkorn tshadow">
+                "Liberty, Equality, Fraternity."
+              </div>
+              <Button color="white" className=" font-bold text-sm">
+                Data
+              </Button>
+            </div>
+          </div>
+        </Slider>
+      </div>
+    );
+  }
 }
-
-export default MyCarousel;

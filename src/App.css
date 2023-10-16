@@ -13,6 +13,34 @@ body{
     background-attachment: fixed;
 }
 
+.imgbg1{
+    background-image: url("/assets/1.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 0 5px 0 #000;
+}
+
+.imgbg2{
+    background-image: url("/assets/2.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 0 5px 0 #000;
+}
+
+.imgbg3{
+    background-image: url("/assets/3.jpeg");
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-shadow: 0 5px 0 #000;
+}
+
+.tshadow{
+    text-shadow: 0 1px 5px #000, 0 3px 0 #000;
+}
+
 .vollkorn{
     font-family: 'Vollkorn', serif;
 }

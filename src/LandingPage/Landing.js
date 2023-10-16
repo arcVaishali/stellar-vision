@@ -4,6 +4,7 @@ import MyCarousel from "./components/MyCarousel";
 import { TeamCard } from "./components/TeamCard";
 import HistoryDiv from "./components/HistoryDiv";
 
+
 const Landing = () => {
   return (
     <>
@@ -30,7 +31,7 @@ const Landing = () => {
         </div>
         <div className="flex flex-col text-[#4d4d4d] basis-[200px] grow px-3">
           <div className="text-[21px] text-center uppercase mb-6 pt-6 border-t-[rgba(50,50,50,0.13)] border-t border-solid">
-            Responsibility
+            Effectiveness
           </div>
           <img
             src="tools_white.svg"
@@ -38,17 +39,12 @@ const Landing = () => {
             alt="light_bulb"
           />
           <p>
-            Unite Disaster Relief collect donations and funds to assist
-            displaced families with relief in areas affected by weather related
-            natural disasters (i.e. earthquakes, wildfires, floods, hurricanes,
-            blizzards, tsunamis, typhoons, tornado, etc.​) ​that insurance or
-            other organizations are not equipped to immediately remedy or
-            otherwise do not cover.
+          Unite Disaster Relief commits 100% of every donated dollar is directly benefits families who have have been displaced from their homes due to natural disaster.  From your good heart, directly to families, where it belongs.
           </p>
         </div>
         <div className="flex flex-col text-[#4d4d4d] basis-[200px] grow px-3">
           <div className="text-[21px] text-center uppercase mb-6 pt-6 border-t-[rgba(50,50,50,0.13)] border-t border-solid">
-            Responsibility
+            Performance
           </div>
           <img
             src="linegraph_white.svg"
@@ -56,12 +52,7 @@ const Landing = () => {
             alt="light_bulb"
           />
           <p>
-            Unite Disaster Relief collect donations and funds to assist
-            displaced families with relief in areas affected by weather related
-            natural disasters (i.e. earthquakes, wildfires, floods, hurricanes,
-            blizzards, tsunamis, typhoons, tornado, etc.​) ​that insurance or
-            other organizations are not equipped to immediately remedy or
-            otherwise do not cover.
+          ​Our priority is to assist displaced families with feeling as comfortable as possible, while they are in transition of getting their lives as close to normal and back on track.
           </p>
         </div>
       </div>
