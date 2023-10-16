@@ -1,10 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 @import url("https://cdn.jsdelivr.net/npm/remixicon@2.3.0/fonts/remixicon.css");
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&family=Roboto+Condensed:wght@300;400;700&display=swap');
-body {
+
+html, body {
   font-family: 'Roboto Condensed', sans-serif;
+  min-height: 100%;
+  width: 100%;
 }
 
 code {
