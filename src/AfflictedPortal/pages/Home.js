@@ -11,8 +11,9 @@ const Home = () => {
     { navi: "Contact", to: "/contact" },
   ];
   const socials = [
-    { soc: "ri-facebook-circle-fill", src: "https://www.instagram.com" },
-    { soc: "ri-twitter-fill", src: "https://www.instagram.com" },
+    { soc: "ri-facebook-circle-fill", src: "https://www.facebook.com" },
+    { soc: "ri-instagram-circle-fill", src: "https://www.instagram.com" },
+    { soc: "ri-twitter-fill", src: "https://www.twitter.com" },
   ];
   return (
     <div className="grid grid-cols-12 justify-center items-center min-h-screen">
@@ -39,7 +40,7 @@ const Home = () => {
           {socials.map((element) => (
             <div className="flex justify-center items-center px-2 border-[#47433D] hover:bg-[#000] hover:rounded-3xl">
               <Link to={element.src} className="text-white text-xl uppercase">
-                <i class={element.soc}></i>
+                <i className={element.soc}></i>
               </Link>
             </div>
           ))}
