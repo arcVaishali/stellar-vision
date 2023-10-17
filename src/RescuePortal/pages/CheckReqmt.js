@@ -55,7 +55,7 @@ const CheckReqmt = () => {
             Check Requests
           </span>
         </div>
-        <span className="flex col-span-3">
+        <span className="flex col-span-6 mt-5 md:col-span-3 md:mt-0">
           <input
             id="search"
             type="search"
@@ -66,14 +66,14 @@ const CheckReqmt = () => {
         </span>
         <div className="grid grid-cols-12 gap-4 col-span-10 justify-center items-center col-start-4 mt-32">
           {categories.map((element) => (
-            <div className="grid col-span-2">
+            <div className="grid col-span-6 md:col-span-2">
               <span className="col-span-3 text-xl text-center uppercase bg-[#2F2D29] text-[#c7aa8b] border-2 border-[#c7aa8b] px-2 py-2 hover:bg-[#c7aa8b] hover:text-[#2F2D29] hover:border-[#2F2D29]">
                 {element.cat}
               </span>
             </div>
           ))}
         </div>
-        <div className="grid my-16 grid-cols-12 gap-4 col-start-2 col-span-10 justify-center items-center rounded-sm">
+        <div className="grid my-16  md:grid-cols-12 gap-4 col-start-2 col-span-10 justify-center items-center rounded-sm">
           {loc.map((element) => (
             <Link
               to={element.src}
@@ -95,10 +95,7 @@ const CheckReqmt = () => {
                 </span>
                 <span className="text-sm text-gray-400">{element.sub}</span>
                 <div className="px-2 py-2 my-4 border-2 border-[#c7aa8b] bg-[#c7aa8b] text-center hover:bg-transparent hover:border-[#c7aa8b] hover:shadow-md hover:shadow-gray-500 hover:text-[#c7aa8b]">
-                  <Link
-                    to=""
-                    className="text-center uppercase text-inherit"
-                  >
+                  <Link to="" className="text-center uppercase text-inherit">
                     Active
                   </Link>
                 </div>

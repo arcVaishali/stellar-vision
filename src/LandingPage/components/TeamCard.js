@@ -10,10 +10,10 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function TeamCard() {
   return (
-    <Card className="w-60 mx-6 h-80">
+    <Card className=" p-2  w-60 mx-6 h-80">
       <CardHeader
         floated={false}
-        className="h-50 w-40 flex justify-center self-center"
+        className="h-50 w-40 flex  justify-center self-center"
       >
         <img src="/2.jpg" alt="profile-picture" />
       </CardHeader>

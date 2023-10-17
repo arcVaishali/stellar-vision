@@ -4,7 +4,6 @@ import MyCarousel from "./components/MyCarousel";
 import { TeamCard } from "./components/TeamCard";
 import HistoryDiv from "./components/HistoryDiv";
 
-
 const Landing = () => {
   return (
     <>
@@ -39,7 +38,10 @@ const Landing = () => {
             alt="light_bulb"
           />
           <p>
-          Unite Disaster Relief commits 100% of every donated dollar is directly benefits families who have have been displaced from their homes due to natural disaster.  From your good heart, directly to families, where it belongs.
+            Unite Disaster Relief commits 100% of every donated dollar is
+            directly benefits families who have have been displaced from their
+            homes due to natural disaster. From your good heart, directly to
+            families, where it belongs.
           </p>
         </div>
         <div className="flex flex-col text-[#4d4d4d] basis-[200px] grow px-3">
@@ -52,7 +54,9 @@ const Landing = () => {
             alt="light_bulb"
           />
           <p>
-          ​Our priority is to assist displaced families with feeling as comfortable as possible, while they are in transition of getting their lives as close to normal and back on track.
+            ​Our priority is to assist displaced families with feeling as
+            comfortable as possible, while they are in transition of getting
+            their lives as close to normal and back on track.
           </p>
         </div>
       </div>
@@ -66,7 +70,7 @@ const Landing = () => {
       </div>
       <div className="text-[#4d4d4d] py-20 px-[15%]">
         <div className="text-3xl leading-[27px] font-bold mb-4">THE TEAM</div>
-        <div className="flex flex-row">
+        <div className="flex flex-row flex-wrap">
           <TeamCard />
           <TeamCard />
           <TeamCard />

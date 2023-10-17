@@ -46,7 +46,7 @@ const ChatbotMap = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gradient-to-bl from-[#BAAC9A] to-white min-h-screen flex items-center">
+      <div className="bg-gradient-to-bl from-[#BAAC9A] to-white min-h-screen flex flex-col md:flex-row  items-center ">
         <iframe
           src="https://interfaces.zapier.com/embed/page/cln8u9sdc126100omji5mstydq?noBackground=true"
           className="shadow-md h-[450px] shadow-[#62553B] rounded-xl border-2 border-[#c7aa8b] bg-gradient-to-t from-[#2F2D29] to-[#47433D] transition ease-in-out delay-50 hover:-translate-y-2 duration-500"
@@ -60,19 +60,21 @@ const ChatbotMap = () => {
           }}
         ></iframe>
         <div
-        style={{
-          width: "100%",
-          height: "400px",
-        }}
-        >
-          <span 
-          className="border-2 border-[#c7aa8b] bg-[#323232] text-center hover:bg-transparent hover:border-[#323232] hover:shadow-md hover:shadow-gray-500 hover:text-[#323232] shadow-md shadow-[#62553B] px-4 py-4 transition ease-in-out delay-50 hover:-translate-y-2 duration-500 text-[#c7aa8b] uppercase"
           style={{
-            position: "relative",
-            left: "250px",
-            bottom:"30px"
+            width: "100%",
+            height: "400px",
           }}
-          >Your live location</span>
+        >
+          <span
+            className="border-2 border-[#c7aa8b] bg-[#323232] text-center hover:bg-transparent hover:border-[#323232] hover:shadow-md hover:shadow-gray-500 hover:text-[#323232] shadow-md shadow-[#62553B] px-4 py-4 transition ease-in-out delay-50 hover:-translate-y-2 duration-500 text-[#c7aa8b] uppercase"
+            style={{
+              position: "relative",
+              left: "250px",
+              bottom: "30px",
+            }}
+          >
+            Your live location
+          </span>
           <iframe
             width="400px"
             height="400px"
@@ -91,7 +93,6 @@ const ChatbotMap = () => {
           </iframe>
         </div>
       </div>
-
     </>
   );
 };

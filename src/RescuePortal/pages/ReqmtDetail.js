@@ -13,7 +13,7 @@ const ReqmtDetail = () => {
   return (
     <div>
       <Navbar />
-      <div className="grid grid-cols-12 justify-center items-center px-12 py-12 bg-gradient-to-bl from-[#BAAC9A] to-white">
+      <div className="flex flex-col md:flex-row justify-center items-center px-12 py-12 bg-gradient-to-bl from-[#BAAC9A] to-white">
         {loc.map((element) => (
           <Link
             to={element.src}
@@ -33,18 +33,12 @@ const ReqmtDetail = () => {
               <span className="text-xl text-gray-100 my-2">{element.req}</span>
               <span className="text-sm text-gray-400">{element.sub}</span>
               <div className="px-2 py-2 my-4 border-2 border-[#c7aa8b] bg-[#c7aa8b] text-center hover:bg-transparent hover:border-[#c7aa8b] hover:shadow-md hover:shadow-gray-500 hover:text-[#c7aa8b]">
-                <Link
-                  to="/"
-                  className="text-center uppercase text-inherit"
-                >
+                <Link to="/" className="text-center uppercase text-inherit">
                   Active
                 </Link>
               </div>
               <div className="px-2 py-2 border-2 border-[#c7aa8b] bg-[#c7aa8b] text-center hover:bg-transparent hover:border-[#c7aa8b] hover:shadow-md hover:shadow-gray-500 hover:text-[#c7aa8b]">
-                <Link
-                  to="/"
-                  className="text-center uppercase text-inherit"
-                >
+                <Link to="/" className="text-center uppercase text-inherit">
                   Join
                 </Link>
               </div>

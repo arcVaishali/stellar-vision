@@ -39,7 +39,7 @@ export default class MyCarousel extends Component {
           </div>
           <div>
             <div className="flex flex-col items-center imgbg2 py-20">
-              <div className="text-white text-[68px] leading-[66px] not-italic font-light uppercase mb-3">
+              <div className="text-white text-[68px] w-[51%] md:w-[38%] leading-[66px] not-italic font-light uppercase mb-3">
                 HOUSTON STRONG
               </div>
               <div className="text-white text-[68px] leading-[66px] not-italic font-bold uppercase mb-3">
@@ -59,7 +59,7 @@ export default class MyCarousel extends Component {
               <div className="text-white text-[68px] leading-[66px] not-italic font-light uppercase mb-3">
                 HAITI
               </div>
-              <div className="text-white text-[68px] leading-[66px] not-italic font-bold uppercase mb-3">
+              <div className="text-white text-[55px] md:text-[68px] w-[65%] md:w-[50%] leading-[66px] not-italic font-bold uppercase mb-3">
                 UNITY MAKES STRENGTH
               </div>
               <div className="w-[60px] h-0.5 bg-white"></div>

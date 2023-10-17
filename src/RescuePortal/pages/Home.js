@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import Navbar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
-
 const Home = () => {
   const [imageIndex, setImageIndex] = useState(0);
   const images = [
@@ -29,10 +28,10 @@ const Home = () => {
           src="https://plus.unsplash.com/premium_photo-1661962514590-7cfa4f3d446d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Zmxvb2RzJTIwaW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=600&q=60"
           className="col-span-12 inset-0 h-[100vh] w-full object-fill object-right z-0 md:object-center"
         />
-        <div className="bg-black opacity-40 absolute inset-0 z-10"></div>
+        <div className="bg-black opacity-40 absolute inset-0 z-10  "></div>
         <div className="flex flex-col col-span-6 col-start-2 absolute mx-auto max-w-7xl z-20">
           <span
-            className="text-7xl text-gray-300 uppercase"
+            className="text-5xl md:text-7xl text-gray-300 uppercase"
             style={{
               fontFamily: "'Paytone One', sans-serif",
               textShadow: "5px 5px 5px rgba(0, 0, 0, 1)",
@@ -40,7 +39,7 @@ const Home = () => {
           >
             Relief Connect
           </span>
-          <span className="text-xl mt-4 text-gray-400">
+          <span className="text-lg md:text-xl mt-4 text-gray-400">
             This is a disaster relief and rescue aid. It aims to reduce the
             issue of fragmented response by various organizations during the
             times of natural calamity.
