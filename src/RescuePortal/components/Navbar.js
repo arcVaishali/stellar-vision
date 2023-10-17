@@ -35,11 +35,13 @@ const Navbar = () => {
       </div>
       <div className="grid grid-cols-4 col-start-10 col-span-3">
         {socials.map((element) => (
-          <div className="flex justify-center items-center px-2 border-[#47433D] hover:bg-[#000] hover:rounded-3xl">
-            <Link to={element.src} className="text-white text-xl uppercase">
-              <i class={element.soc}></i>
-            </Link>
-          </div>
+		  <Link
+		   to={element.src}
+		   className="flex justify-center items-center px-2 border-[#47433D] hover:bg-[#000] hover:rounded-3xl">
+		    <div className="text-white text-xl uppercase">
+	         <i class={element.soc}></i>
+		    </div>
+		  </Link>
         ))}
       </div>
     </nav>

@@ -21,17 +21,21 @@ const Navbar = () => {
             />
           </div>
           {navigation.map((element) => (
-            <div className="flex justify-center items-center px-8 border-r-[1px] border-[#47433D] hover:bg-[#000]">
-              <Link to={element.to} className="text-white text-base uppercase font-[300]">{element.navi}</Link>
-            </div>
+            <Link to={element.to} className="flex justify-center items-center px-8 border-r-[1px] border-[#47433D] hover:bg-[#000]">
+              <div className="text-white text-base uppercase font-[300]">{element.navi}</div>
+            </Link>
           ))}
         </div> 
         <div className="grid grid-cols-4 col-start-10 col-span-3">
           {
             socials.map((element)=>(
-              <div className="flex justify-center items-center px-2 border-[#47433D] hover:bg-[#000] hover:rounded-3xl">
-                <Link to={element.src} className="text-white text-xl uppercase"><i class={element.soc}></i></Link>
-              </div>
+              <Link
+						   to={element.src}
+						   className="flex justify-center items-center px-2 border-[#47433D] hover:bg-[#000] hover:rounded-3xl">
+						   <div className="text-white text-xl uppercase">
+							  <i class={element.soc}></i>
+						   </div>
+					    </Link>
             ))
           }
         </div>
