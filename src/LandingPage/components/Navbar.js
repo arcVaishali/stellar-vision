@@ -8,8 +8,8 @@ const Navbar = () => {
     { navi: "Contact", to: "/contact" },
   ];
   const socials =[
-    {  soc : "ri-facebook-circle-fill" ,src : "https://www.instagram.com" },
-    { soc : "ri-twitter-fill" ,src : "https://www.instagram.com" },
+    {  soc : "ri-facebook-circle-fill" ,src : "https://www.facebook.com" },
+    { soc : "ri-twitter-fill" ,src : "https://www.twitter.com" },
   ]
   return (
     <nav className="top-0 left-0 grid col-span-12 justify-between items-center bg-[#333] px-2 z-1000">
