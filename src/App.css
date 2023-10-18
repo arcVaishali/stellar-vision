@@ -50,7 +50,7 @@ body::-webkit-scrollbar-track {
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 0 5px 0 #000;
-    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.7), inset -120px -80px 200px rgba(0, 0, 0, 0.7);
+    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.8), inset -120px -80px 200px rgba(0, 0, 0, 0.8);
 }
 
 .imgbg2{
@@ -59,7 +59,7 @@ body::-webkit-scrollbar-track {
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 0 5px 0 #000;
-    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.5), inset -120px -80px 200px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.8), inset -120px -80px 200px rgba(0, 0, 0, 0.8);
 }
 
 .imgbg3{
@@ -68,7 +68,7 @@ body::-webkit-scrollbar-track {
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 0 5px 0 #000;
-    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.5), inset -120px -80px 200px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.8), inset -120px -80px 200px rgba(0, 0, 0, 0.8);
 }
 
 .tshadow{
