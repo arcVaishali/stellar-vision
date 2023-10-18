@@ -70,7 +70,7 @@ const Landing = () => {
           THE TEAM
           </div>
         <hr className="border-t-2 pb-4 border-[c7aa8b]" />
-        <div className="flex justify-center">
+        <div className="flex justify-center items-center flex-col md:flex-row gap-10">
           <TeamCard />
           <TeamCard />
           <TeamCard />
