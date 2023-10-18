@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import MyCarousel from "./components/MyCarousel";
 import { TeamCard } from "./components/TeamCard";
 import HistoryDiv from "./components/HistoryDiv";
-
+import { TopButton } from "./components/TopButton";
 
 const Landing = () => {
   return (
@@ -81,6 +81,7 @@ const Landing = () => {
           HISTORY
         </div>
         <HistoryDiv />
+        <TopButton />
       </div>
     </>
   );
