@@ -9,8 +9,9 @@ const Navbar = () => {
   ];
   const socials = [
     { soc: "ri-notification-line", src: "" },
-    { soc: "ri-facebook-circle-fill", src: "https://www.instagram.com" },
-    { soc: "ri-twitter-fill", src: "https://www.instagram.com" },
+    { soc: "ri-facebook-circle-fill", src: "https://www.facebook.com" },
+    { soc: "ri-twitter-fill", src: "https://www.twitter.com" },
+    { soc: "ri-instagram-fill", src: "https://www.instagram.com" },
   ];
   return (
     <nav className="sticky top-0 left-0 grid justify-between items-center bg-[#333] px-2 z-50"

@@ -26,7 +26,7 @@ Any contribution is accepted, from fixing grammatical mistakes to implementing c
 
 8. Push your changes to your forked repository: `git push origin feature/your-feature-name`.
 
-9. Open a pull request (PR) to the `main` branch of the Cert Vault repository.
+9. Open a pull request (PR) to the `main` branch of the stellar-vision repository.
 
 10. Ensure that your PR includes a clear description of the changes and why they are beneficial.
 
@@ -46,7 +46,7 @@ If you encounter any bugs, issues, or have suggestions for improvements, please 
 
 We aim to foster an open and inclusive community. Please be respectful and considerate in all interactions. Harassment or offensive behavior will not be tolerated.
 
-Thank you for contributing to Cert Vault! Together, we can make this project even better.
+Thank you for contributing to stellar-vision! Together, we can make this project even better.
 
 Contributions are always welcome!
 
@@ -99,7 +99,7 @@ Contributions are always welcome!
 
 8. **Create a Pull Request**
 
-   Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main CertVault repository.
+   Go to your forked repository on GitHub, and you should see a "Compare & pull request" button. Click on it to create a pull request (PR) from your branch to the main stellar-vision repository.
 
 ### 🔨Note:
 
@@ -118,7 +118,7 @@ Contributions are always welcome!
 6. When you **raise a issue**, make sure you get **it assigned to you, before you start working** on that project.
 7. Each participant / contributor will be **assigned 1 issue (max)** at a time to work.
 8. **One PR** must correspond to **one issue**. A PR resolving **more than one issue** will be deemed invalid.
-9. Participants are expected to follow **project guidelines** and [**coding style**](https://pep8.org/"). **Structured code** is one of our top priority.
+9. Participants are expected to follow **project guidelines** and [**style-guide**](https://github.com/arcVaishali/stellar-vision/blob/main/style-guide.md). **Structured code** is one of our top priority.
 10. Try to **explain your approach** to solve any issue in the comments. This will increase the chances of you being assigned.
 11. Don't create issues that are **already listed**.
 12. Please don't pick up an issue already assigned to someone else. Work on the issues after it gets **assigned to you**.
