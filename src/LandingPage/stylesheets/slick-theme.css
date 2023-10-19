@@ -131,13 +131,19 @@
   outline: none;
   background: transparent;
 }
-.slick-dots li button:hover,
+.slick-dots li button:hover {
+  outline: none;
+  scale: 130%;
+}
 .slick-dots li button:focus {
   outline: none;
+  scale: 160%;
 }
-.slick-dots li button:hover:before,
+.slick-dots li button:hover:before {
+  opacity: 0.7;
+}
 .slick-dots li button:focus:before {
-  opacity: 1;
+  opacity: 0.4;
 }
 .slick-dots li button:before {
   font-family: "slick";
