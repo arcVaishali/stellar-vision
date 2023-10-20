@@ -11,8 +11,9 @@ const Home = () => {
     { navi: "Contact", to: "/contact" },
   ];
   const socials = [
-    { soc: "ri-facebook-circle-fill", src: "https://www.instagram.com" },
-    { soc: "ri-twitter-fill", src: "https://www.instagram.com" },
+    { soc: "ri-facebook-circle-fill", src: "https://www.facebook.com" },
+    { soc: "ri-instagram-circle-fill", src: "https://www.instagram.com" },
+    { soc: "ri-twitter-fill", src: "https://www.twitter.com" },
   ];
   return (
     <div className="grid grid-cols-12 justify-center items-center min-h-screen">

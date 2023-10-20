@@ -8,8 +8,8 @@ const Navbar = () => {
     { navi: "Contact", to: "/contact" },
   ];
   const socials =[
-    {  soc : "ri-facebook-circle-fill" ,src : "https://www.instagram.com" },
-    { soc : "ri-twitter-fill" ,src : "https://www.instagram.com" },
+    {  soc : "ri-facebook-circle-fill" ,src : "https://www.facebook.com" },
+    { soc : "ri-twitter-fill" ,src : "https://www.twitter.com"}
   ]
   return (
     <nav className="top-0 left-0 grid col-span-12 justify-between items-center bg-[#333] px-2 z-1000">
@@ -24,8 +24,9 @@ const Navbar = () => {
             <Link to={element.to} className="flex justify-center items-center px-8 border-r-[1px] border-[#47433D] hover:bg-[#000]">
               <div className="text-white text-base uppercase font-[300]">{element.navi}</div>
             </Link>
+
           ))}
-        </div> 
+        </div>
         <div className="grid grid-cols-4 col-start-10 col-span-3">
           {
             socials.map((element)=>(

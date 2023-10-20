@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import MyCarousel from "./components/MyCarousel";
 import { TeamCard } from "./components/TeamCard";
 import HistoryDiv from "./components/HistoryDiv";
-
+import { TopButton } from "./components/TopButton";
 
 const Landing = () => {
   return (
@@ -64,9 +64,13 @@ const Landing = () => {
           <br /> --- Ralph Waldo Emerson
         </div>
       </div>
-      <div className="text-[#4d4d4d] py-20 px-[15%]">
-        <div className="text-3xl leading-[27px] font-bold mb-4">THE TEAM</div>
-        <div className="flex flex-row">
+      <div className="text-[#4d4d4d] pt-10 pb-20 px-[15%]">
+        <hr className="border-t-2 border-[c7aa8b]" />
+          <div className="text-3xl leading-[27px] font-bold my-5 text-center">
+          THE TEAM
+          </div>
+        <hr className="border-t-2 pb-4 border-[c7aa8b]" />
+        <div className="flex justify-center">
           <TeamCard />
           <TeamCard />
           <TeamCard />
@@ -77,6 +81,7 @@ const Landing = () => {
           HISTORY
         </div>
         <HistoryDiv />
+        <TopButton />
       </div>
     </>
   );

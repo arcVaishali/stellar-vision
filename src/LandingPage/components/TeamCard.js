@@ -10,7 +10,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export function TeamCard() {
   return (
-    <Card className="w-60 mx-6 h-80">
+
+    <Card className="w-60 mx-6 h-80 transition-transform hover:scale-105 hover:shadow-xl hover:shadow-[#c7aa8b]">
       <CardHeader
         floated={false}
         className="h-50 w-40 flex justify-center self-center"
@@ -21,6 +22,7 @@ export function TeamCard() {
         <Typography variant="h4" color="blue-gray" className="mb-2">
           Natalie Paisley
         </Typography>
+
         <Typography color="blue-gray" className="font-medium" textGradient>
           CEO / Co-Founder
         </Typography>
