@@ -6,6 +6,91 @@ body{
     min-height: 100vh;
 } */
 
+
+.footerimg1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .factsfooter{
+  border: 2px solid #c7AA8B;
+  margin-top: 17px;
+  margin-bottom: 8px;
+  text-align: center;
+  font-size: 17px;
+ color: #c7AA8B;
+ font-weight: 600;
+ width: 95%;
+ height: 39px;
+ padding-top: 0.5%;
+ margin-bottom: 2%;
+ background-color: rgb(57, 57, 57);
+ }
+ .factsfooter:hover{
+     background-color: #c7AA8B;
+     color:rgb(57, 57, 57) ;
+ }
+ 
+ .footerlogoomg{
+     width: 55px;
+     height: 55px;
+   margin-right: 6%;
+   margin-left: 0.5%;
+    
+ }
+ 
+ footer{
+ display: flex;
+ flex-direction:column;
+ align-items: center;
+ justify-content: center;
+ background-color: rgb(45, 45, 45);
+ padding-top: 4%;
+ padding-bottom: 2%;
+ }
+ .footerlast{
+     color:grey;
+     font-size: 14px;
+ }
+ @media (min-width:767px) {
+     .footerimg1txt{
+         color: grey;
+         margin-left: 5%;
+      white-space: nowrap;
+     }
+     footer{
+         display: flex;
+         flex-direction:row;
+         
+        
+         }
+         .factsfooter{
+             width:350px;
+             margin-left: 10%;
+             margin-right: 3%;
+         }
+ .footerimg1{
+     margin-left: 4%;
+ }  
+     
+ 
+ }
+ 
+ @media (max-width:766px) {
+     .footerimg1txt{
+         display: none;
+     }
+     .footerlogoomg{
+         width: 100px;
+         height: 60px;
+       margin-right: 15%;
+        
+     } 
+    }
+
+
 .custom-bttn {
     background-color: #413b33;
     box-shadow: 1px 1px 1px #c7aa8b;
