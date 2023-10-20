@@ -15,7 +15,7 @@ import ChatbotMap from "./AfflictedPortal/pages/ChatbotMap";
 import Requirements from "./RescuePortal/pages/Requirements";
 import CheckReqmt from "./RescuePortal/pages/CheckReqmt";
 import ReqmtDetail from "./RescuePortal/pages/ReqmtDetail";
-
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -35,6 +35,7 @@ function App() {
       {/* <CheckReqmt/> */}
       {/* <ReqmtDetail/>
        <CheckReqmt/> */}
+       <Footer/>
     </BrowserRouter>
   );
 }
