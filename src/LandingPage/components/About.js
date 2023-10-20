@@ -1,35 +1,25 @@
 import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Typography,
-  Tooltip,
-} from "@material-tailwind/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-export function TeamCard() {
-  return (
-
-    <Card className="w-60 mx-6 h-80 transition-transform hover:scale-105 hover:shadow-xl hover:shadow-[#c7aa8b]">
-      <CardHeader
-        floated={false}
-        className="h-50 w-40 flex justify-center self-center"
-      >
-        <img src="/2.jpg" alt="profile-picture" />
-      </CardHeader>
-      <CardBody className="text-center mt-3">
-        <Typography variant="h4" color="blue-gray" className="mb-2">
-          Natalie Paisley
-        </Typography>
-
-        <Typography color="blue-gray" className="font-medium" textGradient>
-          CEO / Co-Founder
-        </Typography>
-      </CardBody>
-      <CardFooter className="flex justify-center gap-7 pt-2">
-        <Tooltip content="Follow">
+    Typography,
+    Tooltip,
+  } from "@material-tailwind/react";
+  import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+export default function About() {
+    return (<section class="text-gray-600 body-font">
+    <div class="container px-5 py-5 mx-auto flex flex-col">
+      <div class="lg:w-4/6 mx-auto">
+        <div class="flex flex-col sm:flex-row mt-10">
+          <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+            <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
+                <img src="/profile.png"/>
+            </div>
+            <div class="flex flex-col items-center text-center justify-center">
+              <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">          Natalie Paisley
+</h2>
+              <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+              <p class="text-base">CEO / Co-Founder</p>
+              <div className="flex m-5"><Tooltip content="Follow">
           <Typography
+          style={{margin: "0 1em"}}
             as="a"
             href="#insta"
             variant="lead"
@@ -48,6 +38,7 @@ export function TeamCard() {
         </Tooltip>
         <Tooltip content="Follow">
           <Typography
+          style={{margin: "0 1em"}}
             as="a"
             href="#twitter"
             variant="lead"
@@ -65,6 +56,7 @@ export function TeamCard() {
         </Tooltip>
         <Tooltip content="Connect">
           <Typography
+          style={{margin: "0 1em"}}
             as="a"
             href="#linkedin"
             variant="lead"
@@ -79,8 +71,19 @@ export function TeamCard() {
               <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
             </svg>
           </Typography>
-        </Tooltip>
-      </CardFooter>
-    </Card>
-  );
+        </Tooltip></div>
+            </div>
+          </div>
+          <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+            <p class="leading-relaxed text-lg mb-4">Unite Disaster Relief collect donations and funds to assist displaced families with relief in areas affected by weather related natural disasters (i.e. earthquakes, wildfires, floods, hurricanes, blizzards, tsunamis, typhoons, tornado, etc.​) ​that insurance or other organizations are not equipped to immediately remedy or otherwise do not cover.</p>
+            <a class="text-indigo-500 inline-flex items-center">Donate
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                <path d="M5 12h14M12 5l7 7-7 7"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>)
 }

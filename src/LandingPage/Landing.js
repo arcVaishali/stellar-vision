@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import MyCarousel from "./components/MyCarousel";
-import { TeamCard } from "./components/TeamCard";
 import HistoryDiv from "./components/HistoryDiv";
 import { TopButton } from "./components/TopButton";
+import About from "./components/About";
 
 const Landing = () => {
   return (
@@ -71,9 +71,9 @@ const Landing = () => {
           </div>
         <hr className="border-t-2 pb-4 border-[c7aa8b]" />
         <div className="flex justify-center">
-          <TeamCard />
-          <TeamCard />
-          <TeamCard />
+          <About/>
+
+
         </div>
       </div>
       <div className="flex items-center flex-col bg-[#f7f7f7] text-xl text-[#4d4d4d] py-20">
