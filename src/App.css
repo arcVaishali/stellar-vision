@@ -6,6 +6,17 @@ body{
     min-height: 100vh;
 } */
 
+.custom-bttn {
+    background-color: #413b33;
+    box-shadow: 1px 1px 1px #c7aa8b;
+  }
+  
+  .custom-bttn:hover {
+    box-shadow: 1px 1px 1px #c7aa8b;
+    scale: 115%;
+  }
+  
+
 body::-webkit-scrollbar {
     width: 12px; 
 }
@@ -39,6 +50,7 @@ body::-webkit-scrollbar-track {
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 0 5px 0 #000;
+    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.8), inset -120px -80px 200px rgba(0, 0, 0, 0.8);
 }
 
 .imgbg2{
@@ -47,6 +59,7 @@ body::-webkit-scrollbar-track {
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 0 5px 0 #000;
+    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.8), inset -120px -80px 200px rgba(0, 0, 0, 0.8);
 }
 
 .imgbg3{
@@ -55,6 +68,7 @@ body::-webkit-scrollbar-track {
     background-size: cover;
     background-repeat: no-repeat;
     text-shadow: 0 5px 0 #000;
+    box-shadow: inset 120px 80px 200px rgba(0, 0, 0, 0.8), inset -120px -80px 200px rgba(0, 0, 0, 0.8);
 }
 
 .tshadow{

@@ -32,7 +32,7 @@ export default class MyCarousel extends Component {
               <div className="text-[hsla(0,0%,100%,0.81)] text-xl italic font-bold mb-11 pt-4 vollkorn tshadow">
                 Land of the Valient Lord
               </div>
-              <Button color="white" className=" font-bold text-sm">
+              <Button className="custom-bttn text-white text-lg w-32 h-12 z-10">
                 Donate
               </Button>
             </div>
@@ -49,7 +49,7 @@ export default class MyCarousel extends Component {
               <div className="text-[hsla(0,0%,100%,0.81)] text-xl italic font-bold mb-11 pt-4 vollkorn tshadow">
                 It’s about content and originality. That’s what it’s about.
               </div>
-              <Button color="white" className=" font-bold text-sm">
+              <Button className="custom-bttn text-white text-lg w-32 h-12 z-10">
                 Donate
               </Button>
             </div>
@@ -66,8 +66,8 @@ export default class MyCarousel extends Component {
               <div className="text-[hsla(0,0%,100%,0.81)] text-xl italic font-bold mb-11 pt-4 vollkorn tshadow">
                 "Liberty, Equality, Fraternity."
               </div>
-              <Button color="white" className=" font-bold text-sm">
-                Data
+              <Button className="custom-bttn text-white text-lg w-32 h-12 z-10">
+                Donate
               </Button>
             </div>
           </div>
