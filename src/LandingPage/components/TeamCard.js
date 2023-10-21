@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export function TeamCard() {
   return (
 
-    <Card className="w-60 mx-6 h-80 transition-transform hover:scale-105 hover:shadow-xl hover:shadow-[#c7aa8b]">
+    <Card className="w-60 h-80 mx-6 transition-transform hover:scale-105 hover:shadow-xl hover:shadow-[#c7aa8b] hover:bg-[#ebcfb2]   cursor-pointer"  >
       <CardHeader
         floated={false}
         className="h-50 w-40 flex justify-center self-center"
@@ -26,6 +26,16 @@ export function TeamCard() {
         <Typography color="blue-gray" className="font-medium" textGradient>
           CEO / Co-Founder
         </Typography>
+        <Typography
+          as="a"
+          href="#insta"
+          variant="lead"
+          className="text-blue-gray-800 text-sm leading-5" 
+          textGradient
+        >
+          This is a sample description
+        </Typography>
+
       </CardBody>
       <CardFooter className="flex justify-center gap-7 pt-2">
         <Tooltip content="Follow">
