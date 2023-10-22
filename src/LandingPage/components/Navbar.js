@@ -5,8 +5,10 @@ const Navbar = () => {
   const navigation = [
     { navi: "Home", to: "/" },
     // { navi: "Work", to: "/work" },
-    { navi: "Contact", to: "/contact" },
-    { navi: "Register", to: "/register"}
+    // { navi: "Contact", to: "/contact" },
+    { navi: "Register", to: "/register"},
+    { navi: "Location", to: "/location"}
+    
   ];
   const socials =[
     {  soc : "ri-facebook-circle-fill" ,src : "https://www.facebook.com" },
