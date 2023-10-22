@@ -1,7 +1,3 @@
-import {
-    Typography,
-    Tooltip,
-  } from "@material-tailwind/react";
 export default function About() {
   const Data = [{name: "Natalie", role: "CEO & Web Developer", description: "Natalie drives the technical strategy of the flowbite platform and brand."},{
     name: "Oliver",
