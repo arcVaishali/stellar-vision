@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import MyCarousel from "./components/MyCarousel";
 import HistoryDiv from "./components/HistoryDiv";
 import { TopButton } from "./components/TopButton";
-import About from "./components/About";
+import TeamCard from "./components/TeamCard";
 
 const Landing = () => {
   return (
@@ -71,7 +71,7 @@ const Landing = () => {
           </div>
         <hr className="border-t-2 pb-4 border-[c7aa8b]" />
         <div className="flex justify-center">
-          <About/>
+          <TeamCard/>
 
 
         </div>
