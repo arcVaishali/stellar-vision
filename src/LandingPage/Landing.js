@@ -8,7 +8,7 @@ import { TopButton } from "./components/TopButton";
 const Landing = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <MyCarousel />
       <div className="bg-[#c7aa8b] flex justify-center flex-row flex-wrap py-20 px-[20%]">
         <div className="flex flex-col text-[#4d4d4d] basis-[200px] grow px-3">

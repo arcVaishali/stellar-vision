@@ -45,7 +45,7 @@ const ChatbotMap = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="bg-gradient-to-bl from-[#BAAC9A] to-white min-h-screen flex items-center">
         <iframe
           src="https://interfaces.zapier.com/embed/page/cln8u9sdc126100omji5mstydq?noBackground=true"

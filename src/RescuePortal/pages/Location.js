@@ -5,7 +5,7 @@ import {Link} from "react-router-dom"
 const Location = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="min-h-screen bg-gradient-to-bl from-[#BAAC9A] to-white flex flex-col items-center justify-center text-white">
         <svg
           xmlns="http://www.w3.org/2000/svg"

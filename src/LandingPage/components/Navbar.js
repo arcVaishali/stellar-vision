@@ -1,17 +1,19 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, Outlet } from 'react-router-dom'
 
 const Navbar = () => {
   const navigation = [
     { navi: "Home", to: "/" },
-    { navi: "Work", to: "/work" },
+    // { navi: "Work", to: "/work" },
     { navi: "Contact", to: "/contact" },
+    { navi: "Register", to: "/register"}
   ];
   const socials =[
     {  soc : "ri-facebook-circle-fill" ,src : "https://www.facebook.com" },
     { soc : "ri-twitter-fill" ,src : "https://www.twitter.com"}
   ]
   return (
+    <>
     <nav className="top-0 left-0 grid col-span-12 justify-between items-center bg-[#333] px-2 z-1000">
         <div className="grid grid-cols-4 col-start-3 px-2 ">
           <div className="flex justify-center items-center px-4 py-2 border-r-[1px] border-[#47433D] hover:bg-[#000]">
@@ -41,6 +43,7 @@ const Navbar = () => {
           }
         </div>
       </nav>
+      </>
   )
 }
 
