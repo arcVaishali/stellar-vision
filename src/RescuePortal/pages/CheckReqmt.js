@@ -43,7 +43,7 @@ const CheckReqmt = () => {
   ];
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="grid grid-cols-12 justify-between items-center px-20 py-20 bg-gradient-to-bl from-[#BAAC9A] to-white">
         <div className="grid col-span-7 col-start-2">
           <span

@@ -12,7 +12,7 @@ const ReqmtDetail = () => {
   ];
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="grid grid-cols-12 justify-center items-center px-12 py-12 bg-gradient-to-bl from-[#BAAC9A] to-white">
         {loc.map((element) => (
           <Link

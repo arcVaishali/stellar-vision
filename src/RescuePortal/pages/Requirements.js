@@ -37,7 +37,7 @@ const Requirements = () => {
   ];
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="grid grid-cols-12 justify-center items-center px-12 py-12 bg-gradient-to-bl from-[#BAAC9A] to-white">
       <div className="px-2 py-2 border-2 border-[#c7aa8b] bg-gradient-to-t from-[#47433D] to-[#2F2D29] text-center hover:shadow-md hover:shadow-gray-500 col-span-3 relative  left-[450px] rounded-full mb-16">
             <Link
