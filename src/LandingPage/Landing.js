@@ -6,6 +6,15 @@ import { TopButton } from "./components/TopButton";
 import TeamCard from "./components/TeamCard";
 
 const Landing = () => {
+  let quote = { content: "The purpose of life is not to be happy. It is to be useful, to be honorable, to be compassionate, to have it make some difference that you have lived and lived well.", author: "Ralph Waldo Emerson"}
+
+  fetch("https://api.quotable.io/random")
+    .then((response) => response.json())
+    .then((data) => {
+      quote = data;
+    })
+    .catch((error) => console.error());
+
   return (
     <>
       {/* <Navbar /> */}
@@ -39,7 +48,10 @@ const Landing = () => {
             alt="light_bulb"
           />
           <p>
-          Unite Disaster Relief commits 100% of every donated dollar is directly benefits families who have have been displaced from their homes due to natural disaster.  From your good heart, directly to families, where it belongs.
+            Unite Disaster Relief commits 100% of every donated dollar is
+            directly benefits families who have have been displaced from their
+            homes due to natural disaster. From your good heart, directly to
+            families, where it belongs.
           </p>
         </div>
         <div className="flex flex-col text-[#4d4d4d] basis-[200px] grow px-3">
@@ -52,28 +64,25 @@ const Landing = () => {
             alt="light_bulb"
           />
           <p>
-          ​Our priority is to assist displaced families with feeling as comfortable as possible, while they are in transition of getting their lives as close to normal and back on track.
+            ​Our priority is to assist displaced families with feeling as
+            comfortable as possible, while they are in transition of getting
+            their lives as close to normal and back on track.
           </p>
         </div>
       </div>
       <div className="flex flex-row flex-wrap">
         <div className="imagebg flex justify-center text-[#c7aa8b] leading-[55px] w-full font-medium text-[35px] py-[128px] px-[15%] mt-0 mb-2.5">
-          “The purpose of life is not to be happy. It is to be useful, to be
-          honorable, to be compassionate, to have it make some difference that
-          you have lived and lived well.”
-          <br /> --- Ralph Waldo Emerson
-        </div>
-      </div>
+          “{quote.content}”
+          <br /> --- {quote.author}
+        </div></div>
       <div className="text-[#4d4d4d] pt-10 pb-20 px-[15%]">
         <hr className="border-t-2 border-[c7aa8b]" />
-          <div className="text-3xl leading-[27px] font-bold my-5 text-center">
+        <div className="text-3xl leading-[27px] font-bold my-5 text-center">
           THE TEAM
-          </div>
+        </div>
         <hr className="border-t-2 pb-4 border-[c7aa8b]" />
         <div className="flex justify-center">
-          <TeamCard/>
-
-
+          <TeamCard />
         </div>
       </div>
       <div className="flex items-center flex-col bg-[#f7f7f7] text-xl text-[#4d4d4d] py-20">
